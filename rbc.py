@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-os.environ["PATH"] += ":/Users/mukeshyadav/Projects/rbcbank/"
+os.environ["PATH"] += ":"+os.path.abspath(os.path.join(os.getcwd(), os.pardir))
 
 
 driver = webdriver.Firefox()
