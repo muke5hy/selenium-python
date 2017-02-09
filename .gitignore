@@ -1,4 +1,5 @@
 config.py
+cookies.pkl
 # IntelliJ IDEA IDE
 .idea
 *.log
